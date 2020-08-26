@@ -228,9 +228,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
   align-items: center;
   display: flex;
+  height: 40px;
   justify-content: center;
+  width: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -589,6 +597,10 @@ input[type=button] {
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
   .reviews article {
     display: flex;
@@ -633,6 +645,11 @@ input[type=button] {
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+    justify-content: space-between;
+    width: 12.5em;
   }
 
   footer .copyright {
