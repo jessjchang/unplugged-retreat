@@ -102,6 +102,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -113,6 +115,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -644,7 +647,7 @@ input[type=button] {
   }
 
   footer p {
-      line-height: 1.285;
+    line-height: 1.285;
   }
 
   footer .social-icons {
@@ -782,14 +785,14 @@ input[type=button] {
   /* ==========================================================
    About Page
    ============================================================ */
-   .map figure {
+  .map figure {
     padding-bottom: 37.5%;
   }
   
-   .mission h2,
+  .mission h2,
   .contact-section .content-wrapper h2 {
-      font-size: 3em;
-      width: 95%;
+    font-size: 3em;
+    width: 95%;
   }
 
   .contact-content h4 {
