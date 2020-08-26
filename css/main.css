@@ -349,6 +349,22 @@ input[type=button] {
   justify-content: center;
 }
 
+.map figure {
+  height: 0; 
+  overflow: hidden;
+  padding-bottom: 125%; 
+  position: relative;
+  width: 100%;
+}
+
+.map iframe {
+  height: 100%;
+  left: 0; 
+  position: absolute; 
+  top: 0; 
+  width: 100%;
+}
+
 .contact-section {
   align-items: center;
   background-color: #2a423a;
